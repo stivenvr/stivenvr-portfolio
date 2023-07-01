@@ -40,6 +40,11 @@
   border-radius: 100%;
 }
 
+.avatar {
+  border-radius: 50%;
+  filter:brightness(0.8);
+}
+
 @layer base {
   body {
     @apply font-secondary text-lg leading-8 text-white;
