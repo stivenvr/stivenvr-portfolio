@@ -12,13 +12,13 @@ const Work = () => {
   return(
   <section className='section' id='work'>
     <div className='container mx-auto'>
-      <div>
-        <div className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'>
+      <div className='flex flex-col lg:flex-row gap-x-10'>
+        <div className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0 '>
           {/* text */}
           <div>
             <h2 className='h2 leading-tight text-accent'>My latest <br /> work</h2>
             <p className='max-w-sm mb-16'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio sunt natus exercitationem ea iste minima, quis rem fuga consectetur quam quaerat doloribus rerum ipsa! Ipsa, possimus? Aliquam repellendus molestias laboriosam.</p>
-            <button className='btn btn-sm'>Go to project</button>
+            {/* <button className='btn btn-sm'>Go to project</button> */}
           </div>
           {/* img */}
           <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl' >
@@ -39,7 +39,7 @@ const Work = () => {
 
 
 
-        <div>2</div>
+        <div className='flex-1'>2</div>
       </div>
     </div>
   </section>
