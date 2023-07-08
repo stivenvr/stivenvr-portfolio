@@ -10,9 +10,9 @@ const About = () => {
     threshold: 0.5,
   });
   return (
-    <section className='section' id='about' ref={ref}>
+    <section className='section min-h-[85vh]' id='about' ref={ref}>
       <div className='container mx-auto'>
-        <div className='flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 h-screen'>
+        <div className='flex items-center flex-col gap-y-10 lg:flex-row lg:gap-x-20 lg:gap-y-0 h-screen'>
           {/* Image */}
           <motion.div
           variants={fadeIn('right', 0.3)}
