@@ -12,7 +12,7 @@ const Banner = () => {
 
   <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center' id='home'>
     <div className='container mx-auto'>
-      <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12'>
+      <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center'>
         {/* TEXT */}
         <div className='flex-1 text-center font-secondary lg:text-left'>
           <motion.h1 
@@ -49,7 +49,7 @@ const Banner = () => {
           className='mb-8 max-w-lg mx-auto lg:mx-0'>
             Empathetic, dynamic professional with communication and conflict resolution skills, committed to teamwork.
           </motion.p>
-          <motion.div
+          {/* <motion.div
           variants={fadeIn('up', 0.6)}
           initial='hidden'
           whileInView={'show'}
@@ -59,22 +59,22 @@ const Banner = () => {
             <a href="#" className="text-gradient btn-link">
               My portfolio
             </a>
-          </motion.div>
+          </motion.div> */}
           <motion.div
           variants={fadeIn('up', 0.7)}
           initial='hidden'
           whileInView={'show'}
           viewport={{once: false, amount: 0.7}}
           className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-            <a href="#">
+            <a href="https://github.com/stivenvr" target='_blank'>
               <FaGithub /> 
             </a>
-            <a href="#">
+            <a href="https://wa.me/message/OU26OGYYGT6YH1" target='_blank'>
               <FaPhone /> 
             </a>
-            <a href="#">
+            {/* <a href="s.valenciar0@gmail.com" target='_blank'>
               <FaEnvelope /> 
-            </a>
+            </a> */}
           </motion.div>
         </div>
         {/* img */}

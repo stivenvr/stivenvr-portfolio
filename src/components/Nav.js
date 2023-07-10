@@ -14,8 +14,8 @@ const Nav = () => {
           to='home'
           activeClass='active'
           smooth={true}
-          spy={true}
-          offset={-200}
+          // spy={true}
+          offset={-100}
           className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
         >
           <BiHomeAlt />
@@ -24,7 +24,7 @@ const Nav = () => {
           to='about'
           activeClass='active'
           smooth={true}
-          spy={true}
+          // spy={true}
           className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
         >
           <BiUser />
@@ -42,7 +42,8 @@ const Nav = () => {
          to='work'
          activeClass='active'
          smooth={true}
-         spy={true}
+        //  spy={true}
+        offset={-20}
          className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
         >
           <BsBriefcase />
@@ -51,7 +52,7 @@ const Nav = () => {
          to='contact'
          activeClass='active'
          smooth={true}
-         spy={true}
+        //  spy={true}
          className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
         >
           <BiSolidContact />

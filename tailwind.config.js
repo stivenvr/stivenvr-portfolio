@@ -18,6 +18,9 @@ module.exports = {
       xl: '1200px',
     },
     extend: {
+      gridTemplateColumns: {
+        '2': 'repeat(2, minmax(0, 0.3fr))',
+      },
       colors: {
         primary: '#0a0a0a',
         accent: '#B809C3',
