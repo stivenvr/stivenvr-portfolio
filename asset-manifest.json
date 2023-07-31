@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/stivenvr-portfolio/build/static/css/main.c8adb5a8.css",
+    "main.js": "/stivenvr-portfolio/build/static/js/main.d360fecd.js",
+    "static/media/PS.jpg": "/stivenvr-portfolio/build/static/media/PS.f3e0dbb3fcc9f31ab5fc.jpg",
+    "static/media/front.jpg": "/stivenvr-portfolio/build/static/media/front.dd4034764eb9ee217f32.jpg",
+    "static/media/site-bg.jpg": "/stivenvr-portfolio/build/static/media/site-bg.54724d703024833ef9c6.jpg",
+    "static/media/avatarSF.png": "/stivenvr-portfolio/build/static/media/avatarSF.881c8970d3a24a8502d0.png",
+    "static/media/Dev.jpg": "/stivenvr-portfolio/build/static/media/Dev.329198162c9de7e717ad.jpg",
+    "index.html": "/stivenvr-portfolio/build/index.html",
+    "main.c8adb5a8.css.map": "/stivenvr-portfolio/build/static/css/main.c8adb5a8.css.map",
+    "main.d360fecd.js.map": "/stivenvr-portfolio/build/static/js/main.d360fecd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8adb5a8.css",
+    "static/js/main.d360fecd.js"
+  ]
+}
