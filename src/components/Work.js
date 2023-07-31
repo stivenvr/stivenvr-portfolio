@@ -35,7 +35,7 @@ const Work = () => {
             {/* overlay */}
             <div className='bg-black/30 group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
             {/* img */}
-            <img className='object-cover h-full lg:group-hover:scale-125 lg:transition-all lg:duration-500' src={Img1} alt="" />
+            <img className='object-cover lg:h-full lg:group-hover:scale-125 lg:transition-all lg:duration-500' src={Img1} alt="" />
             {/* pretitle */}
             <div className='lg:absolute lg:-bottom-full lg:left-12 lg:group-hover:bottom-12 lg:transition-all lg:duration-500 lg:z-50'>
               <span className='text-sm text-gradient'>Frontend Developer at Jidoka Community</span>
@@ -85,7 +85,7 @@ const Work = () => {
             </div>
             
             <div className='lg:absolute lg:-bottom-full lg:left-12 lg:group-hover:bottom-4 lg:transition-all lg:duration-500 lg:z-50'>
-              <span className='text-sm lg:text-lg text-white'></span>
+              <span className='text-sm lg:text-lg text-white'>Soluciones Digitales para el Campo</span>
             </div>
           </motion.div>
         </div>
