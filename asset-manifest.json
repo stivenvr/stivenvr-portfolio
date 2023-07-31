@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/stivenvr-portfolio/static/css/main.e3cf73c6.css",
-    "main.js": "/stivenvr-portfolio/static/js/main.11254208.js",
+    "main.js": "/stivenvr-portfolio/static/js/main.79b32c9e.js",
     "static/media/PS.jpg": "/stivenvr-portfolio/static/media/PS.f3e0dbb3fcc9f31ab5fc.jpg",
     "static/media/front.jpg": "/stivenvr-portfolio/static/media/front.dd4034764eb9ee217f32.jpg",
     "static/media/site-bg.jpg": "/stivenvr-portfolio/static/media/site-bg.54724d703024833ef9c6.jpg",
@@ -9,10 +9,10 @@
     "static/media/Dev.jpg": "/stivenvr-portfolio/static/media/Dev.329198162c9de7e717ad.jpg",
     "index.html": "/stivenvr-portfolio/index.html",
     "main.e3cf73c6.css.map": "/stivenvr-portfolio/static/css/main.e3cf73c6.css.map",
-    "main.11254208.js.map": "/stivenvr-portfolio/static/js/main.11254208.js.map"
+    "main.79b32c9e.js.map": "/stivenvr-portfolio/static/js/main.79b32c9e.js.map"
   },
   "entrypoints": [
     "static/css/main.e3cf73c6.css",
-    "static/js/main.11254208.js"
+    "static/js/main.79b32c9e.js"
   ]
 }
